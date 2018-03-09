@@ -9,4 +9,3 @@ function destructivelyAddElementToBeginningOfArray (list,item) {
   list = list.unshift(item)
   return list
 }
-destructivelyAddElementToBeginningOfArray([1,2,3],4);
