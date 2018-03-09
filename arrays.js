@@ -21,5 +21,5 @@ function destructivelyAddElementToEndOfArray (list,item) {
 }
 
 function accessElementInArray (list,pos) {
-  
+  return list[pos]
 }
