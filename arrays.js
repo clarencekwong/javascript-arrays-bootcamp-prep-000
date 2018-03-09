@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray (list,item) {
   return list
 }
 
-function addElementToBeginningOfArray (list,item) {
+function addElementToEndOfArray (list,item) {
   const list2 = [item,...list]
   return list2
 }
