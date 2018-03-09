@@ -11,11 +11,11 @@ function destructivelyAddElementToBeginningOfArray (list,item) {
 }
 
 function addElementToEndOfArray (list,item) {
-  const list2 = [item,...list]
+  const list2 = [...list,item]
   return list2
 }
 
-function destructivelyAddElementToBeginningOfArray (list,item) {
-  list.unshift(item)
+function destructivelyAddElementToEndOfArray (list,item) {
+  list.push(item)
   return list
 }
